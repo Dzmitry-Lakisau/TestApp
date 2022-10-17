@@ -75,6 +75,9 @@ dependencies {
 
     implementation "io.coil-kt:coil-compose:2.2.2"
 
+    implementation "com.squareup.okhttp3:okhttp:$okhttp_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp_version"
+
     implementation "com.google.android.material:material:1.6.1"
 
     testImplementation 'junit:junit:4.13.2'
